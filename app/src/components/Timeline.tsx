@@ -1,5 +1,3 @@
-import React from "react";
-
 const timelineData = [
   {
     date: "July, 2024 - Now",
