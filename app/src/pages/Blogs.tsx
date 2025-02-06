@@ -1,22 +1,19 @@
-import {Link} from "react-router-dom";
-import Navbar from "../components/navbar";
+import Navbar from "@/components/Navbar";
+import {styles} from "@/Styles";
+import BlogGrid from "@/components/BlogGrid";
 
-const BlogsPage = () => {
+const Tmp = () => {
   return (
-    <div className="bg-white min-h-screen">
+    <div className="bg-white dark:bg-black min-h-screen overscroll-y-contain">
       <Navbar />
 
-      {/* Content */}
-      <div className="flex flex-col items-center justify-center pt-20">
-        <Link to="/about" className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition">
-          Learn More
-        </Link>
-        <Link to="/projects" className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition">
-          Projects
-        </Link>
+      <div className={styles.container}>
+        <h1>My Blogs</h1>
+        <p>Write-ups and tutorials on topics I found interesting.</p>
+        <BlogGrid />
       </div>
     </div>
   );
 };
 
-export default BlogsPage;
+export default Tmp;

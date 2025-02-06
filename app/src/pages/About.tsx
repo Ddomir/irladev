@@ -1,14 +1,8 @@
 import {Link} from "react-router-dom";
-import Navbar from "../components/navbar";
-import Timeline from "../components/Timeline";
-import irladevpfp from "../assets/irladevpfp.jpg";
+import Navbar from "@/components/Navbar";
+import Timeline from "@/components/Timeline";
 import {FaLinkedin, FaGithub, FaInstagram} from "react-icons/fa";
-
-const styles = {
-  card: "w-full border-2 border-gray-700 dark:border-gray-500 rounded-md transition duration-300 ease-in-out hover:scale-[1.01]",
-  textBox: "bg-gray-200 dark:bg-gray-900 p-6",
-  container: "max-w-screen-xl mx-auto px-8 sm:px-16 md:px-24 lg:px-48 xl:px-64 2xl:px-60 pt-20 dark:text-gray-200"
-};
+import {styles} from "@/Styles";
 
 const AboutPage = () => {
   return (
@@ -16,12 +10,16 @@ const AboutPage = () => {
       <Navbar />
 
       <div className={styles.container}>
-        <h1 className="text-center text-3xl font-bold">About Me</h1>
+        <h1>About Me</h1>
 
         {/* Ensure full width on mobile */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-4 pt-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-4 pt-4 mb-8">
           {/* PFP IMG */}
-          <img className={`col-span-full md:col-span-1 rounded-md ${styles.card}`} src={irladevpfp} alt="Profile" />
+          <img
+            className={`col-span-full md:col-span-1 rounded-md max-sm:hidden ${styles.card}`}
+            src="/images/irladevpfp.jpg"
+            alt="Profile"
+          />
 
           <div className={`col-span-full md:col-span-3 ${styles.textBox} ${styles.card}`}>
             <p>

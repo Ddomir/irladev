@@ -14,3 +14,15 @@ h1 {
   font-size: xx-large;
   font-weight: 800;
 }
+
+h2 {
+  font-family: "DM sans", sans;
+  font-size: x-large;
+  font-weight: 800;
+}
+
+@layer utilities {
+  .blog-thumbnail-clip {
+    clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0% 100%);
+  }
+}
