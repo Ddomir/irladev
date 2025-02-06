@@ -3,7 +3,7 @@
     "id": 1,
     "title": "BlissBlogUI",
     "description": "A beginner's guide to React and its core concepts.",
-    "link": "@/pages/blogs/testblog.tsx",
+    "link": "/blogs/BlissBlogUI",
     "thumbnail": "/images/blogImages/BlissBlogUI/BlissBlogUITN.png",
     "date": "January, 2025"
   },

@@ -12,7 +12,6 @@ const AboutPage = () => {
       <div className={styles.container}>
         <h1>About Me</h1>
 
-        {/* Ensure full width on mobile */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4 pt-4 mb-8">
           {/* PFP IMG */}
           <img

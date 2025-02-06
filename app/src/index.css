@@ -26,3 +26,21 @@ h2 {
     clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0% 100%);
   }
 }
+
+html,
+body,
+#root {
+  min-height: 100vh;
+  height: 100%;
+  margin: 0;
+  background-color: white;
+}
+
+/* For dark mode */
+@media (prefers-color-scheme: dark) {
+  html,
+  body,
+  #root {
+    background-color: black;
+  }
+}
