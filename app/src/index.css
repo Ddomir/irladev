@@ -36,11 +36,9 @@ body,
   background-color: white;
 }
 
-/* For dark mode */
-@media (prefers-color-scheme: dark) {
-  html,
-  body,
-  #root {
-    background-color: black;
-  }
+/* Use dark class instead of media query */
+html.dark,
+html.dark body,
+html.dark #root {
+  background-color: black;
 }

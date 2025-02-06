@@ -9,7 +9,7 @@ const BlogGrid = () => {
         <Link
           key={blog.id}
           to={blog.link}
-          className={`${styles.card} flex flex-row items-start gap-4 relative overflow-hidden mb-4`}
+          className={`${styles.card} bg-gray-200 dark:bg-gray-900 flex flex-row items-start gap-4 relative overflow-hidden mb-4`}
         >
           <div className="flex-1 p-4 min-w-0">
             <h2 className="font-bold text-lg flex items-center gap-2">{blog.title}</h2>

@@ -7,7 +7,7 @@ const ProjectsPage = () => {
       <Navbar />
 
       <div className={styles.container}>
-        <h1 className="text-center text-3xl font-bold">Projects</h1>
+        <h1>Projects</h1>
       </div>
     </div>
   );
