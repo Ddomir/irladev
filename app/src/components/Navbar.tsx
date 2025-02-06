@@ -10,7 +10,7 @@ const Navbar = () => {
             bg-white dark:bg-black 
             font-sans font-extrabold text-lg text-black dark:text-gray-200"
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative flex items-center py-2">
+      <div className="max-w-7xl mx-auto px-4 sm:px-4 lg:px-8 relative flex items-center py-2">
         <div className="absolute left-1/2 transform -translate-x-1/2 flex space-x-10">
           {[
             {name: "Blogs", path: "/blogs"},
