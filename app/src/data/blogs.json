@@ -4,7 +4,7 @@
     "title": "BlissBlogUI",
     "description": "A beginner's guide to React and its core concepts.",
     "link": "/blogs/BlissBlogUI",
-    "thumbnail": "/images/blogImages/BlissBlogUI/BlissBlogUITN.png",
+    "thumbnail": "images/blogImages/BlissBlogUI/BlissBlogUITN.png",
     "date": "January, 2025"
   },
   {
@@ -12,7 +12,7 @@
     "title": "BlissBlogUxI",
     "description": "A beginner's guide to React and its core concepts.",
     "link": "@/pages/blogs/testblog.tsx",
-    "thumbnail": "/images/blogImages/BlissBlogUI/test1.jpg",
+    "thumbnail": "images/blogImages/BlissBlogUI/test1.jpg",
     "date": "January, 2025"
   }
 ]

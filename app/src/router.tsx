@@ -6,7 +6,7 @@ import BlissBlogUIBlog from "./pages/blogs/BlissBlogUI";
 
 const AppRouter = () => {
   return (
-    <Router>
+    <Router basename="/irladev">
       <Routes>
         <Route path="/" element={<AboutPage />} />
         <Route path="/projects" element={<ProjectsPage />} />

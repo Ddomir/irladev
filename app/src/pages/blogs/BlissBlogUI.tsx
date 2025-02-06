@@ -2,7 +2,6 @@ import {Link} from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import CodeBox from "@/components/CodeBox";
 import {styles} from "@/Styles";
-import BlissBlogUITN from "/images/blogImages/BlissBlogUI/BlissBlogUITN.png";
 
 const BlissBlogUIBlog = () => {
   return (
@@ -13,7 +12,11 @@ const BlissBlogUIBlog = () => {
         <h1 className="text-center text-4xl font-bold">BlissBlogUI</h1>
 
         <div className="flex justify-center">
-          <img className={`aspect-square w-64 h-auto mt-2 ${styles.image}`} src={BlissBlogUITN} alt="BlissBlogUI" />
+          <img
+            className={`aspect-square w-64 h-auto mt-2 ${styles.image}`}
+            src={`${import.meta.env.BASE_URL}images/blogImages/BlissBlogUI/BlissBlogUITN.png`}
+            alt="BlissBlogUI"
+          />
         </div>
 
         <p className={styles.subtitle}>The mistakes from not preplanning.</p>
@@ -95,7 +98,10 @@ const BlissBlogUIBlog = () => {
           </div>
           <p>I decided to keep my project contents separated to easily read and adjust any variable later on.</p>
           <div className="flex justify-center">
-            <img className={`${styles.image} w-64 h-auto`} src="/images/blogImages/BlissBlogUI/EarlySCSSExample.png" />
+            <img
+              className={`${styles.image} w-64 h-auto`}
+              src={`${import.meta.env.BASE_URL}images/blogImages/BlissBlogUI/EarlySCSSExample.png`}
+            />
           </div>
           <p className={styles.subtitle}>An early example of my SCSS folder layout.</p>
           <p>

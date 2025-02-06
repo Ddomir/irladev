@@ -16,7 +16,7 @@ const AboutPage = () => {
           {/* PFP IMG */}
           <img
             className={`col-span-full md:col-span-1 rounded-md max-sm:hidden ${styles.card}`}
-            src="/images/irladevpfp.jpg"
+            src="images/irladevpfp.jpg"
             alt="Profile"
           />
 
