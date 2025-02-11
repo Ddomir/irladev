@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Liteboard",
+    "date": "February, 2025",
+    "link": "https://github.com/AdamAubs/spark-hacks-2025",
+    "thumbnail": "images/projectImages/LiteboardTN.png",
+    "description": "Concept classroom UI created in 24 hours for UIC Sparkhacks 2025."
+  },
+  {
+    "id": 3,
+    "title": "irla.dev",
+    "date": "January, 2025",
+    "link": "https://github.com/Ddomir/irladev",
+    "thumbnail": "images/projectImages/irladevTN.png",
+    "description": "The website you're looking at! Fully open-source."
+  },
+  {
+    "id": 2,
+    "title": "BlissBlog UI",
+    "date": "January, 2025",
+    "link": "https://github.com/Ddomir/BlissBlogUI-CSS-Framework",
+    "thumbnail": "images/blogImages/BlissBlogUI/BlissBlogUITN.png",
+    "description": "CSS Framework for creating devblogs."
+  }
+]
