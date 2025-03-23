@@ -1,5 +1,13 @@
 [
   {
+    "id": 4,
+    "title": "Pogoda",
+    "date": "March, 2025",
+    "link": "https://github.com/Ddomir/Pogoda",
+    "thumbnail": "images/projectImages/PogodaTN.png",
+    "description": "Dynamic concept JavaFX weather app using NWS/EPA API."
+  },
+  {
     "id": 1,
     "title": "Liteboard",
     "date": "February, 2025",

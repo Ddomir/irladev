@@ -25,8 +25,8 @@ const AboutPage = () => {
               👋 Hello! I am <strong>Dominic Irla</strong>, an aspiring software engineer based in Chicago. Currently, I
               am learning:
             </p>
-            <p className="mt-2">○ 🌐 Three.JS Web Rendering</p>
-            <p>○ 🖌️ UI Design (does it look good?)</p>
+            <p className="mt-2">○ ☕ JavaFX</p>
+            <p>○ 🖌️ UI Design</p>
             <p>○ 🕹️ Verse for UEFN</p>
           </div>
 
