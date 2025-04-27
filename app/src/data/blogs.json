@@ -1,14 +1,6 @@
 [
   {
     "id": 1,
-    "title": "BlissBlogUI",
-    "description": "Attempts at a project.",
-    "link": "/blogs/BlissBlogUI",
-    "thumbnail": "images/blogImages/BlissBlogUI/BlissBlogUITN.png",
-    "date": "January, 2025"
-  },
-  {
-    "id": 2,
     "title": "Pogoda App",
     "description": "JavaFX developing expreience and lessons learned.",
     "link": "/blogs/Pogoda",
